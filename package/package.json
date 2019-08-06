@@ -1,0 +1,20 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "control": "rollup -c control.rollup.config.js",
+    "buggy": "rollup -c buggy.rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "library": "file:../library"
+  },
+  "devDependencies": {
+    "rollup": "^1.19.3",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
